@@ -2,10 +2,9 @@
 
 namespace Database\Seeders;
 
-use App\Models\Tag;
 use App\Models\Article;
+use App\Models\Tag;
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class ArticleSeeder extends Seeder
 {
