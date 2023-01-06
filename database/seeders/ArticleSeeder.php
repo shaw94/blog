@@ -16,7 +16,7 @@ class ArticleSeeder extends Seeder
     public function run()
     {
         Article::factory(10)
-        ->hasAttached(Tag::factory()->count(3))
-        ->create();
+            ->hasAttached(Tag::factory()->count(3))
+            ->create();
     }
 }
