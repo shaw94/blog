@@ -19,7 +19,7 @@ class AuthorSeeder extends Seeder
             'first_name' => 'Mohamed',
             'last_name' => 'Shaw',
             'email' => 'admin@email.app',
-            'password' => Hash::make('helloWorld2023'),
+            'password' => Hash::make('secret'),
         ]);
     }
 }
